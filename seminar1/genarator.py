@@ -1,2 +1,7 @@
 import random
-print (random.randint (0, 22))
+print ("\n случайная задача - ", random.randint (0, 22))
+
+
+# from random import randint
+# print (randint (0, 22))
+
