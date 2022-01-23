@@ -4,11 +4,21 @@ from random import randint
 list = [randint(1,100) for i in range(3)]
 print(list)
 
-max=list[0]
-for i in range(1,3):
-    if list[i]>max: max=list[i]
+# max=list[0]
 
-print (f'максимальное число - {max}')
+def max_from_three (x,y,z):
+    max = x
+    for i in range(1,3):
+        if list[i]>max: max=list[i]
+    return max
+
+max_from_three(list[0], list[1], list[2])
+print (max)
+
+# for i in range(1,3):
+#     if list[i]>max: max=list[i]
+
+# print (f'максимальное число - {max}')
 
 # # def GetRandom(): 
 # #     return l=randint(0,100)
@@ -43,21 +53,3 @@ print (f'максимальное число - {max}')
 
 # # i++;
 
-# # }
-
-# # i=0;
-# # max=A[i];
-
-# # while (i<3)
-
-# # {   if (A[i]>max) max=A[i];
-# #   i++;
-
-# # }
-
-
-# # Console.Write ("В массиве: ");
-# # i=0;
-# # PrintArray(A);
-# # Console.WriteLine();
-# # Console.WriteLine("Максимальное число "+ max);
