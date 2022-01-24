@@ -7,4 +7,4 @@ def sum_total (b):
         # print (sum)
     return sum
 
-print (sum_total(10))
+print (sum_total(21))
