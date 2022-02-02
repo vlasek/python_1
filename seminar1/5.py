@@ -4,6 +4,5 @@ def Function(a):
     y = a * a
     return y
 
-print("Введите число перменную a: ")
-a = int (input())
+a = float (input('Введите число перменную a: (для функции a в квадрате) '))
 print ("Ваш ответ", Function(a))

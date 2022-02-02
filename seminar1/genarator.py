@@ -1,5 +1,5 @@
 import random
-print ("\n случайная задача - ", random.randint (0, 31))
+print ("\n случайная задача - ", random.randint (0, 75))
 
 
 # from random import randint
